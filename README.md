@@ -8,7 +8,7 @@ Exposes the available methods of the REST API for SkyTap.
 
 ## Latest Update
 
-* Initial Commit
+* Published to [PowerShell Gallery](https://www.powershellgallery.com/packages/PoShSkyTap/1.0.0)
 
 ## Getting Started
 
@@ -19,6 +19,20 @@ Exposes the available methods of the REST API for SkyTap.
 
 ### Install & Use
 
+#### PowerShellGet Installation
+
+[PoShSkyTap on PowerShell Gallery](https://www.powershellgallery.com/packages/PoShSkyTap/1.0.0)
+
+```powershell
+Install-Module PoShSkyTap
+```
+
+```powershell
+Import-Module PoShSkyTap
+```
+
+#### Manual Installation
+
 Save the module to your PowerShell modules folder of choice.
 
 Find your local PowerShell module paths with the following command:
@@ -26,6 +40,8 @@ Find your local PowerShell module paths with the following command:
 ```powershell
 $env:PSModulePath
 ```
+
+My favorite is `C:\Users\<username>\Documents\WindowsPowerShell\Modules`.
 
 The name of the folder for the module should be "PoShSkyTap".
 
