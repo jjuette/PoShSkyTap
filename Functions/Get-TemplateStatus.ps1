@@ -21,7 +21,7 @@ Returns the response received from the REST API call
 
 #>
 
-function Set-TemplateStatus {
+function Get-TemplateStatus {
 
     [CmdletBinding()]
     param(
