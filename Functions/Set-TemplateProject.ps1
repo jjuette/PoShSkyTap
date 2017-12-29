@@ -41,7 +41,7 @@ function Set-TemplateProject {
     )
 
     # Set URI endpoint to send call to
-    $uri = "https://cloud.skytap.com/${ProjectID}/templates/${TemplateID}"
+    $uri = "https://cloud.skytap.com/projects/${ProjectID}/templates/${TemplateID}"
 
     # Set headers required for authentication and format
     $headers = @{"Accept" = "application/json"; "Authorization" = ("Basic {0}" -f ${SkyTapAuth})}
